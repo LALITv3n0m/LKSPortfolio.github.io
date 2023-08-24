@@ -86,5 +86,16 @@
           typeSpeed: 60,
         });
       </script>
+    <script>
+      window.onload = function() {
+    // Check if the device is an Android phone
+    var isAndroid = /Android/i.test(navigator.userAgent);
+
+    // Show an alert message for Android users
+    if (isAndroid) {
+        alert("For the best experience, please visit the desktop version of our site.");
+    }
+};
+    </script>
   </body>
 </html>
