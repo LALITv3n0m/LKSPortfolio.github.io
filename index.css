@@ -78,3 +78,25 @@ ul{
 h1{
     font-size: 35px;
 }
+.secondsection{
+    margin:auto;
+
+    width:80vw;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    color:red;
+}
+.bottomsection{
+    justify-content: space-around;
+    display:flex;
+    margin:5vw;
+
+}
+.bottomsection1{
+    justify-content: space-around;
+    display:flex;
+    margin:5vw;
+}
